@@ -6,7 +6,7 @@ library(lubridate)
 library(dplyr)
 
 
-# Reading in the data
+# Reading in the data assuming they're in the working directory
 power <- read_csv2( "household_power_consumption.txt")
 
 #conversion of the Date column to date class
